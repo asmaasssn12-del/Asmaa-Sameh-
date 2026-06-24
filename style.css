@@ -1,0 +1,181 @@
+body {
+    font-family:Arial, sans-serif ;
+    background-color: white;
+    color: #222;
+}
+h1 {
+    color: #1d4ed8;
+    font-size: 36px;
+    text-align: center;
+}
+h3 {
+    color: black;
+}
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+button {
+    color: blue;
+    background-color: rgb(43, 226, 171);
+    padding: 12px 20px;
+    border:none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:hover {
+    background-color: #0099ff;
+    transition: 2s; 
+}
+a {
+    color: rgb(249, 6, 249);
+    background-color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(2, 2, 42);
+}
+label {
+    color: rgb(6, 26, 244);
+}
+input {
+    color: rgb(0, 0, 0);
+    background-color: rgba(138, 86, 215, 0.365);
+}
+h1,
+h2,
+h3,
+p {
+margin-bottom: 12px;
+}
+button {
+    margin-bottom: 16px;
+}
+form {
+    margin-top: 24px;
+}
+#hero {
+    background-color: white;
+    padding: 32px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #1d4ed8;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+.highlight {
+    color: #1d4ed8;
+    font-weight: bold;
+}
+.A {
+    color: #000;
+    font-size: 36px;
+    text-align: center;
+    background-color: aqua;
+    border: 10px double;
+}
+.card {
+    background-color: white;
+    padding: 24px;
+    margin-top: 20px;
+    border-radius: 12px;
+    width: 30%;
+}
+.card img {
+    width: 100%;
+    border-radius: 12px;
+}
+.cards-container {
+    display: flex;
+    gap: 20px;
+}
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 6px;
+}
+input {
+    display: block;
+    width :100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+}
+input:focus {
+    outline:none;
+  border-color: #1d4ed8;
+  background-color: #eef4ff;
+}
+.hero-image {
+    position: relative;
+}
+.hero-image img{
+    width: 300px;
+    border-radius: 16px;
+    display: block;
+}
+section {
+    margin-top: 40px;
+}
+.navbar{
+    background-color: white;
+    padding: 20px 32px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar h2{
+    color: #1d4ed8;
+}
+.nav-links{
+    display: flex;
+    gap: 20px;
+}
+.nav-links a{
+    color: #111827;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav-links a:hover {
+    color: #1d4ed8;
+}
+.AA {
+    color: #1d4ed8;
+    font-weight: bold;
+}
+.banner {
+    position: relative;
+    margin-top: 40px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.banner img {
+   width: 100%;
+   display: block;
+}
+.banner-text{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    color: white;
+    max-width: 400px;
+}
+.www{
+    background-color: #1d4ed8;
+    color: white;
+}
+.www:hover{
+    background-color: rgb(111, 202, 244);
+}
